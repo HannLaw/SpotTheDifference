@@ -84,7 +84,7 @@ function load(context, id, callback) {
       callback(context, img);
     }
   }
-  img.src = "./images/spot/" + images[id].file;
+  img.src = "spot/" + images[id].file;
 }
 
 //Distance between two points
